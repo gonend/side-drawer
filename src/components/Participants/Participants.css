@@ -1,0 +1,82 @@
+.participants-div {
+  left: 0%;
+  display: inline-block;
+  height: 10%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 3vb;
+  margin-top: 0%;
+  text-align: left;
+  font-size: 3vb;
+  line-height: 1.4;
+}
+.search_container {
+  display: flex;
+  gap: 33%;
+  justify-content: center;
+  margin-bottom: 5%;
+  font-size: 1vw;
+}
+.par-span {
+  display: flex;
+  align-items: center;
+}
+
+.par-span img {
+  margin-right: 10px;
+  height: 4vb;
+}
+
+.par-span b {
+  width: 50%;
+  font-size: 2.1vb;
+}
+
+.par-span button {
+  height: 3%;
+  width: 25%;
+  margin-right: 10%;
+}
+
+.par-span svg {
+  margin-right: 5%;
+}
+.check-btn {
+  display: inline-block;
+  position: static;
+  align-self: right;
+  font-size: 1vw;
+}
+#checkedIn {
+  background-color: rgb(80, 200, 80);
+  color: white;
+}
+#checked {
+  color: rgb(80, 200, 80);
+  background-color: white;
+  border: 1px solid rgb(80, 200, 80);
+}
+
+.select {
+  display: block;
+  width: 12vw;
+  height: 3vh;
+}
+
+.part {
+  margin-top: 2px;
+  font-size: 2.6vb;
+}
+.face {
+  border-radius: 50%;
+  width: 2.2vw;
+  margin-right: 3%;
+}
+.list-wrapper {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: flex;
+}

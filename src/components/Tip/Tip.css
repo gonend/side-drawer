@@ -1,0 +1,17 @@
+.tip-span {
+  left: 0%;
+  display: inline-block;
+  height: 8%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 3vb;
+  margin-top: 0%;
+  text-align: left;
+  font-size: 3vb;
+  line-height: 1.4;
+}
+
+.tip-span text {
+  font-size: 2.2vb;
+  padding-right: 10%;
+}
